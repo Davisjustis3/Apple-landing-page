@@ -1,0 +1,156 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#navbar-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(54, 52, 52);
+  height: 4.5vh;
+ 
+}
+#list-container {
+  margin-right: 40px;
+   position: sticky;
+}
+#nav {
+  display: flex;
+  gap: 33px;
+}
+a, li, i {
+  text-decoration: none;
+  list-style: none;
+  color: rgb(255, 255, 255);
+  font-size: 12px;
+}
+#macbook-container {
+  background-color: black;
+}
+#white-background-container {
+  background-color: rgb(242, 242, 242);
+  margin-top: 12px;
+}
+#macbook-container, 
+#white-background-container {
+  height: 68.3vh;
+  display: flex;
+  justify-content: center;
+}
+#macbook-title-box,
+#macmini-title-box, 
+#catch-title-box{
+  display: block;
+  text-align: center;
+  margin-top: 3vh;
+}
+#macbook-title,
+.main-white-title {
+  font-size: 3rem;
+  font-weight: 800;
+  margin-bottom: 0;
+}
+.main-white-title {
+  color: black;
+}
+.subtitle-white-background {
+  color: black;
+}
+h1, 
+h3 {
+  font-family: sans-serif;
+  color: white;
+}
+h3 {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+/* Buttons */
+.buttons-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.btn {
+  cursor: pointer;
+  font-size: 1rem;
+}
+.buy:hover {
+  background-color: rgb(59, 115, 227);
+  color: white;
+}
+.buy-white-background {
+  background-color: rgb(242, 242, 242)
+}
+.buy-white-background:hover {
+  background-color: rgb(59, 115, 227);
+  color: white;
+}
+.learn-more:hover {
+  background-color: rgb(66, 118, 221);
+  color: white;
+}
+.learn-more {
+  background-color: rgb(59, 115, 227);
+  border: none;
+  border-radius: 20%;
+  height: 40px;
+  width: 120px;
+  color: white;
+}
+.buy {
+  background-color: black;
+}
+.buy, 
+.product-buy-btn  {
+  border: 1px solid rgb(59, 115, 227);
+  border-radius: 30%;
+  height: 40px;
+  width: 50px;
+  color: rgb(59, 115, 227);
+}
+.buy-white-background {
+  background-color: white;
+  border: 1px solid rgb(59, 115, 227);
+  border-radius: 30%;
+  height: 40px;
+  width: 50px;
+  color: rgb(59, 115, 227);
+}
+#product-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 12px;
+  gap: 13px;
+}
+.product-box {
+  /* border: solid; */
+  background-color: rgb(242, 242, 242);
+  height: 500px;
+  width: 480px;
+  text-align: center;
+}
+.product-title {
+  font-size: 2rem;
+  color: black;
+  display: flex;
+  justify-content: center;
+}
+#watch {
+  font-size: .8rem;
+  margin-top: 0;
+}
+.product-subtitle {
+  font-size: 1.3rem;
+}
+.black-background {
+  color: white;
+  background-color: black;
+}
+.black {
+  color: black;
+}
